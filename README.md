@@ -19,12 +19,7 @@
 
 ```
 pip install ipython
-```
 
-- To install the numpy
-  
-```
-pip install numpy
 ```
 
 - to test IPython
@@ -33,6 +28,38 @@ pip install numpy
 python -m IPython
 ```
 
+
+- In the cmd shell install Jupyter Notebook
+
+```
+pip install jupyterlab notebook
+
+```
+
+- or 
+
+```
+python -m pip install jupyterlab notebook
+```
+
+- Navigate to your book-code folder
+```
+cd D:\CBC\DSAI-Jan-2026-AM\06-DA-Python\DSAI-DAPython-June-2026-AM\book-codes
+
+python -m jupyter lab
+
+```
+
+
+
+- To install the other liabries like numpy
+  
+```
+pip install numpy
+```
+
+
+
 - to troubleshoot IPython install issue
 ```
 > where python
@@ -40,6 +67,8 @@ python -m IPython
 > python -m pip show ipython
 
 ```
+
+
 
 ## To activate the virtual environment
 
