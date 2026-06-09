@@ -27,6 +27,20 @@ pip install ipython
 pip install numpy
 ```
 
+- to test IPython
+
+```
+python -m IPython
+```
+
+- to troubleshoot IPython install issue
+```
+> where python
+> where pip
+> python -m pip show ipython
+
+```
+
 ## To activate the virtual environment
 
 - at the root folder (my-code)
