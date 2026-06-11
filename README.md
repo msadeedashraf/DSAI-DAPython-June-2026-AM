@@ -106,7 +106,41 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 - You can import the needed packages and libraries
 
-- create a test.ipynb file 
+```
+pip install pandas numpy matplotlib jupyter ipykernel
+```
+
+- or using a requirements files
+
+```
+python -m pip install -r requirements.txt
+
+```
+
+- Register Environment as a Kernel
+```
+python -m ipykernel install --user --name=myenv --display-name "Python (myenv)"
+```
+- You see a msg Installed kernelspec myenv
+
+- Open VS Code
+
+```
+code .
+```
+
+- Top-right corner:---> Select Kernel ---> Choose myenv
+
+- create a test.ipynb file and test the code
+
+- To deactivate the environment
+
+```
+deactivate
+```
+
+
+
 
 
 
