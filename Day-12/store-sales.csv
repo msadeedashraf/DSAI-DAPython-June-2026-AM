@@ -1,0 +1,9 @@
+OrderID,Date,Customer,Category,Amount,Payment
+1001,2026-01-01,Ali,Laptop,1200,Credit
+1002,2026-01-01,Sarah,Mouse,25,Debit
+1003,2026-01-02,John,Laptop,1350,Credit
+1004,2026-01-02,Ali,Keyboard,80,Debit
+1005,2026-01-03,Mike,Monitor,300,Credit
+1006,2026-01-03,Sarah,Mouse,30,Debit
+1007,2026-01-04,John,Laptop,1100,Credit
+1008,2026-01-04,Fatima,Monitor,350,Credit
